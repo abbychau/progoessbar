@@ -84,7 +84,7 @@ impl Game {
         println!("\n\n\n\n\n");
         println!("\n\n\n\n\n");
         println!("\n\n\n\n\n");
-                    ::std::thread::sleep(::std::time::Duration::from_millis(100));
+                    ::std::thread::sleep(::std::time::Duration::from_millis(1000));
 
         let mut cur_move = 0;
         for (prop, val) in properties {
